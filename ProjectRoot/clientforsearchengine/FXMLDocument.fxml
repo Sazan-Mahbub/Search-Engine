@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="120.0" prefWidth="617.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="clientforsearchengine.FXMLDocumentController">
+    <children>
+        <Button fx:id="searchButton" layoutX="551.0" layoutY="14.0" onAction="#searchButtonAction" prefHeight="25.0" prefWidth="58.0" text="Search" />
+      <TextField fx:id="searchField" layoutX="9.0" layoutY="14.0" onAction="#searchButtonAction" prefHeight="25.0" prefWidth="533.0" />
+      <TextArea fx:id="ShowURLs" layoutX="9.0" layoutY="46.0" prefHeight="60.0" prefWidth="600.0" />
+    </children>
+</AnchorPane>
